@@ -190,8 +190,7 @@ All documentation is complete and ready:
 
 **GitHub Repository:**
 - URL: https://github.com/OumaCavin/prompt2action-ai.git
-- Fine-grained token: `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`
-- Classic token: `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`
+- Use your personal access tokens for deployment
 
 **Email Configuration:**
 - Email: cavin.otieno012@gmail.com
