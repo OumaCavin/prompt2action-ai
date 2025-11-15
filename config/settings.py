@@ -107,7 +107,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-STATICFILES_DIRS = [BASE_DIR / 'static']
+# Handle both local development and containerized deployment
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+    os.path.join(BASE_DIR, 'static'),  # For container environments
+]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
