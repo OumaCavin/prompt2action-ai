@@ -34,9 +34,7 @@
 ### 📸 **Application Screenshots**
 
 **Homepage Preview:**
-<!-- To add a screenshot, save it as `docs/screenshots/homepage.png` and uncomment the line below -->
-<!-- ![Homepage Screenshot](docs/screenshots/homepage.png) -->
-*To add a screenshot: Visit the live demo, take a screenshot, and save it as `docs/screenshots/homepage.png`*
+![Homepage Screenshot](docs/screenshots/homepage.png) 
 
 **Admin Panel Preview:**
 <!-- To add admin panel screenshot, save it as `docs/screenshots/admin-panel.png` and uncomment the line below -->
@@ -75,25 +73,6 @@ python manage.py runserver
 - ✅ **Code Context Graph** - Advanced code analysis
 - ✅ **Quality Assessment** - Multi-dimensional validation
 - ✅ **Admin Dashboard** - Full platform management
-
----
-
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Key Innovations](#-key-innovations)
-- [Architecture](#-architecture)
-- [Technology Stack](#-technology-stack)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
-- [API Documentation](#-api-documentation)
-- [Deployment](#-deployment)
-- [Testing](#-testing)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
 
 ---
 
