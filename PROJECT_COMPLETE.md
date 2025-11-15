@@ -1,5 +1,13 @@
 # Prompt2Action AI - Project Completion Summary
 
+## 🚀 LIVE DEMO
+**Application URL**: https://prompt2action-ai-production.up.railway.app  
+**Admin Panel**: https://prompt2action-ai-production.up.railway.app/admin  
+**Default Credentials**: admin / admin  
+**Status**: ✅ LIVE & ACTIVE
+
+---
+
 ## Project Overview
 The Prompt2Action AI multi-agent platform has been successfully developed as a comprehensive Django-based system for AI-powered task orchestration and workflow management.
 

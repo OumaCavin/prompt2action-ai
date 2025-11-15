@@ -22,6 +22,13 @@ DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '*').split(',')
 
+# CSRF trusted origins - add Railway deployment domain
+CSRF_TRUSTED_ORIGINS = [
+    'https://prompt2action-ai-production.up.railway.app',
+    'http://localhost:8000',
+    'http://localhost:8080',
+]
+
 # Application definition
 INSTALLED_APPS = [
     'daphne',
@@ -137,7 +144,7 @@ REST_FRAMEWORK = {
 # CORS Settings
 CORS_ALLOWED_ORIGINS = os.getenv(
     'CORS_ALLOWED_ORIGINS',
-    'http://localhost:3000,http://127.0.0.1:3000,http://localhost:8000,http://127.0.0.1:8000'
+    'https://prompt2action-ai-production.up.railway.app,http://localhost:3000,http://127.0.0.1:3000,http://localhost:8000,http://127.0.0.1:8000'
 ).split(',')
 
 CORS_ALLOW_ALL_ORIGINS = DEBUG
