@@ -51,7 +51,7 @@ pydantic-core==2.41.5
 pyopenssl==25.3.0
 pyparsing==3.2.5
 python-dateutil==2.9.0.post0
-psycopg2-binary==2.9.9
+psycopg2-binary>=2.9.10
 python-dotenv==1.2.1
 redis==7.0.1
 requests==2.32.5
