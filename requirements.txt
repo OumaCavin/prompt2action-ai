@@ -21,6 +21,7 @@ cryptography==46.0.3
 daphne==4.2.1
 django==5.2.8
 django-cors-headers==4.9.0
+dj-database-url==2.2.0
 djangorestframework==3.16.1
 gunicorn==22.0.0
 google-ai-generativelanguage==0.6.15
@@ -52,6 +53,7 @@ pyopenssl==25.3.0
 pyparsing==3.2.5
 python-dateutil==2.9.0.post0
 psycopg2-binary>=2.9.10
+pillow==10.4.0
 python-dotenv==1.2.1
 redis==7.0.1
 requests==2.32.5
@@ -71,4 +73,5 @@ urllib3==2.5.0
 uv==0.9.9
 vine==5.1.0
 wcwidth==0.2.14
+whitenoise==6.8.2
 zope-interface==8.1
