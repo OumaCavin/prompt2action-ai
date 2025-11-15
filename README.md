@@ -9,9 +9,91 @@
 
 **Transform prompts into action with AI-powered multi-agent coordination**
 
-[Features](#-key-features) • [Architecture](#-architecture) • [Installation](#-installation) • [Documentation](#-documentation) • [Deployment](#-deployment) • [Contact](#-contact)
+🚀 **[LIVE DEMO](https://prompt2action-ai-production.up.railway.app)** • 🔐 **[Admin Panel](https://prompt2action-ai-production.up.railway.app/admin)** • 📖 **[Documentation](#-documentation)** • ⚡ **[Quick Start](#-installation)** 
 
 </div>
+
+---
+
+## 🌐 **LIVE DEMO ACCESS**
+
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-green?style=for-the-badge)](https://prompt2action-ai-production.up.railway.app)
+[![Admin Panel](https://img.shields.io/badge/ADMIN-PANEL-blue?style=for-the-badge)](https://prompt2action-ai-production.up.railway.app/admin)
+
+**Application**: https://prompt2action-ai-production.up.railway.app  
+**Admin Access**: https://prompt2action-ai-production.up.railway.app/admin  
+**Login**: `admin` / `admin`  
+**Status**: ✅ **ACTIVE** & **DEPLOYED**
+
+</div>
+
+---
+
+### 📸 **Application Screenshots**
+
+**Homepage Preview:**
+<!-- To add a screenshot, save it as `docs/screenshots/homepage.png` and uncomment the line below -->
+<!-- ![Homepage Screenshot](docs/screenshots/homepage.png) -->
+*To add a screenshot: Visit the live demo, take a screenshot, and save it as `docs/screenshots/homepage.png`*
+
+**Admin Panel Preview:**
+<!-- To add admin panel screenshot, save it as `docs/screenshots/admin-panel.png` and uncomment the line below -->
+<!-- ![Admin Panel Screenshot](docs/screenshots/admin-panel.png) -->
+*Admin panel available at `/admin` with full workflow management capabilities*
+
+---
+
+## 🎯 **Quick Start**
+
+Want to try it immediately? Visit the **[Live Demo](https://prompt2action-ai-production.up.railway.app)** or set up locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/OumaCavin/prompt2action-ai.git
+cd prompt2action-ai
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the development server
+python manage.py runserver
+
+# Visit http://localhost:8000
+```
+
+**Admin Panel**: `http://localhost:8000/admin` (create superuser with `python manage.py createsuperuser`)
+
+---
+
+### 🚀 **Key Features Available in Live Demo**
+
+- ✅ **Multi-Agent Coordination** - Planner, Developer, Reviewer, Tester, Documenter
+- ✅ **Real-Time Progress Tracking** - Live WebSocket updates
+- ✅ **Workflow Management** - Create and monitor AI workflows
+- ✅ **Code Context Graph** - Advanced code analysis
+- ✅ **Quality Assessment** - Multi-dimensional validation
+- ✅ **Admin Dashboard** - Full platform management
+
+---
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Key Innovations](#-key-innovations)
+- [Architecture](#-architecture)
+- [Technology Stack](#-technology-stack)
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Usage](#-usage)
+- [API Documentation](#-api-documentation)
+- [Deployment](#-deployment)
+- [Testing](#-testing)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
 ---
 
