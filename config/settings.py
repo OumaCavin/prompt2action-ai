@@ -84,8 +84,15 @@ ASGI_APPLICATION = 'config.asgi.application'
 # Database
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('SUPABASE_DB_NAME', 'postgres'),
+        'USER': os.getenv('SUPABASE_DB_USER', 'postgres'),
+        'PASSWORD': os.getenv('SUPABASE_DB_PASSWORD'),
+        'HOST': os.getenv('SUPABASE_DB_HOST', 'db.umetddwitujrcvezjswc.supabase.co'),
+        'PORT': os.getenv('SUPABASE_DB_PORT', '5432'),
+        'OPTIONS': {
+            'sslmode': 'require',
+        },
     }
 }
 
